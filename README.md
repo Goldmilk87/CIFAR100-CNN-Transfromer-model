@@ -144,7 +144,3 @@ Saved umap_test_features.png
 - Training 200 epochs on CIFAR-100 requires ~4–6 hours on a modern GPU.  
 - UMAP visualization may take several minutes.  
 - Modify `batch_size` or `num_workers` for hardware constraints.
-
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
