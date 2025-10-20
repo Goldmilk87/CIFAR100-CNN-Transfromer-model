@@ -205,3 +205,43 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project-specific ignores for CIFAR100-CNN-Transformer-model ---
+
+# Dataset and data cache
+/data/
+/datasets/
+/input/
+/cifar100/
+/cifar-100-python/
+*.tar
+*.zip
+
+# Model outputs and checkpoints
+/checkpoints/
+/models/
+/outputs/
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+
+# Generated figures, logs, and reports
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.csv
+*.log
+*.txt
+umap_test_features.png
+confusion_matrix*.png
+loss.png
+
+# Temporary or runtime files
+tmp/
+temp/
+runs/
+wandb/
