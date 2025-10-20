@@ -57,6 +57,27 @@ Ensure CUDA is available for GPU acceleration:
 
 ---
 
+## Visual Results
+
+### Confusion Matrix
+#### Raw
+![Confusion Matrix](confusion_matrix.png)
+
+#### Normalized
+![Confusion Matrix Normalized](confusion_matrix_normalized.png)
+
+---
+
+### Training Loss Curve
+![Training Loss](loss.png)
+
+---
+
+### UMAP Feature Embedding
+![UMAP Test Features](umap_test_features.png)
+
+---
+
 ## File Outputs
 | File | Description |
 |------|--------------|
