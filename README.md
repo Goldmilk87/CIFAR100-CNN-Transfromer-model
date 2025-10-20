@@ -105,7 +105,7 @@ Automatically produces:
 ---
 
 ## Example Output
-'''Console
+```Console
 cuda
 [001, 00100] loss: 3.996
 [001, 00200] loss: 3.873
@@ -116,7 +116,7 @@ Top 10 classes:
 09 baby: 95.2%
 ...
 Saved umap_test_features.png
-'''
+```
 ---
 
 ## Notes
