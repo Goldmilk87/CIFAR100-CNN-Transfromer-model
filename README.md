@@ -23,11 +23,11 @@ It includes data augmentation, Mixup, learning rate scheduling, visualization (U
 ## Requirements
 Install dependencies before running:
 
-  pip install torch torchvision timm umap-learn scikit-learn matplotlib numpy pandas
+    pip install torch torchvision timm umap-learn scikit-learn matplotlib numpy pandas
 
 Ensure CUDA is available for GPU acceleration:
 
-  python -c "import torch; print(torch.cuda.is_available())"
+    python -c "import torch; print(torch.cuda.is_available())"
 
 ---
 
