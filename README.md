@@ -23,10 +23,10 @@ It includes data augmentation, Mixup, learning rate scheduling, visualization (U
 ## Requirements
 Install dependencies before running:
 
-    '''pip install torch torchvision timm umap-learn scikit-learn matplotlib numpy pandas'''
+  pip install torch torchvision timm umap-learn scikit-learn matplotlib numpy pandas
 
 Ensure CUDA is available for GPU acceleration:
-    '''python -c "import torch; print(torch.cuda.is_available())"'''
+  python -c "import torch; print(torch.cuda.is_available())"
 
 ---
 
@@ -104,17 +104,17 @@ Automatically produces:
 ---
 
 ## Example Output
-'''
-    cuda
-    [001, 00100] loss: 3.996
-    [001, 00200] loss: 3.873
-    ...
-    Finished Training
-    Overall accuracy from CM: 78.25%
-    Top 10 classes:
-    09 baby: 95.2%
-    ...
-    Saved umap_test_features.png
+'''Console
+cuda
+[001, 00100] loss: 3.996
+[001, 00200] loss: 3.873
+...
+Finished Training
+Overall accuracy from CM: 78.25%
+Top 10 classes:
+09 baby: 95.2%
+...
+Saved umap_test_features.png
 '''
 ---
 
