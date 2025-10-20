@@ -221,7 +221,6 @@ __marimo__/
 /checkpoints/
 /models/
 /outputs/
-*.pth
 *.pt
 *.ckpt
 *.npz
