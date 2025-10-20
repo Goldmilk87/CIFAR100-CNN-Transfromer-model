@@ -227,18 +227,6 @@ __marimo__/
 *.npz
 *.npy
 
-# Generated figures, logs, and reports
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.gif
-*.csv
-*.log
-*.txt
-umap_test_features.png
-confusion_matrix*.png
-loss.png
 
 # Temporary or runtime files
 tmp/
